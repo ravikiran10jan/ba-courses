@@ -1,0 +1,39 @@
+{
+  "name": "ba-courses",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "content:generate": "node scripts/generate-content.mjs",
+    "dev": "npm run content:generate && next dev",
+    "build": "npm run content:generate && next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.19.0",
+    "@hookform/resolvers": "^5.2.2",
+    "clsx": "^2.1.1",
+    "firebase": "^12.12.1",
+    "firebase-admin": "^13.8.0",
+    "hls.js": "^1.6.16",
+    "lucide-react": "^1.11.0",
+    "nanoid": "^5.1.9",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-hook-form": "^7.73.1",
+    "tailwind-merge": "^3.5.0",
+    "yaml": "^2.8.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
