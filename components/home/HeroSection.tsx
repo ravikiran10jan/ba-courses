@@ -54,12 +54,6 @@ export default function HeroSection() {
             {hero.ctaPrimary}
           </Button>
 
-          <Link href="/enterprise">
-            <Button variant="secondary" size="lg">
-              {hero.ctaSecondary}
-            </Button>
-          </Link>
-
           {user && (
             <Link href="/dashboard">
               <Button variant="ghost" size="lg">

@@ -207,7 +207,7 @@ export default async function CourseDetailPage({
 
   const glanceItems = fc.glanceItems.map((item) => ({
     label: item.label,
-    value: (course as unknown as Record<string, unknown>)[item.label.toLowerCase().replace(/ /g, "")] as string || item.value,
+    value: item.value,
   }));
 
   return (

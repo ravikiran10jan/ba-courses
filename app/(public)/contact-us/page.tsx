@@ -40,9 +40,9 @@ const contactCards = [
   },
   {
     icon: MessageCircle,
-    label: cp.discordLabel,
-    value: cp.discordCta,
-    href: site.contact.discord,
+    label: "WhatsApp",
+    value: site.contact.phone,
+    href: site.contact.whatsapp,
   },
 ];
 

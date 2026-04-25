@@ -11,14 +11,14 @@ const content = {
     "description": "BA Courses - Transform your operations career into a high-demand Business Analyst role in Financial Markets & Capital Markets. Live training, real trading systems, AI-augmented skills.",
     "url": "http://localhost:3000",
     "contact": {
-      "phone": "+91 89632-32722",
-      "phoneRaw": "+918963232722",
-      "email": "contact@bacourses.com",
+      "phone": "+91 9381379483",
+      "phoneRaw": "+919381379483",
+      "email": "ops2batransition@gmail.com",
       "discord": "https://discord.gg/eswQurMGFE",
       "twitter": "https://twitter.com/BACourses",
       "linkedin": "https://linkedin.com/company/bacourses",
       "youtube": "https://youtube.com/@bacourses",
-      "whatsapp": "https://wa.me/918963232722"
+      "whatsapp": "https://wa.me/919381379483"
     }
   },
   "pricing": {
@@ -78,7 +78,6 @@ const content = {
     "badgeArrow": "-->",
     "badgeRight": "Banking BA · Financial Markets",
     "ctaPrimary": "Explore Programme",
-    "ctaSecondary": "Enterprise Training",
     "ctaDashboard": "My Dashboard"
   },
   "marketDemand": {
@@ -264,7 +263,6 @@ const content = {
       "heading": "Why Reach Out?",
       "reasons": [
         "Have questions about a specific course or learning path",
-        "Want to explore enterprise training solutions for your team",
         "Need technical support or help with your account",
         "Interested in partnership or collaboration opportunities",
         "Want to share feedback or suggestions"
@@ -401,12 +399,12 @@ const content = {
         "answer": "All sessions are conducted live with recordings made available within 24 hours. You can watch the recordings at your convenience if you miss a live session."
       },
       {
-        "question": "What is the refund policy?",
-        "answer": "We offer a full refund within 7 days of purchase if you are not satisfied with the programme. No questions asked."
+        "question": "What is your refund policy?",
+        "answer": "No refund is offered, it is at less than the cost of your one meal!"
       },
       {
-        "question": "How long does the programme take to complete?",
-        "answer": "The programme runs for 8 weeks with weekend live sessions. You should expect to dedicate 6-8 hours per week including assignments and hands-on practice with the trading system."
+        "question": "What is your refund policy?",
+        "answer": "No refund is offered..."
       }
     ],
     "weeks": [
@@ -425,11 +423,10 @@ const content = {
         "title": "Pillar B: Trade Lifecycle & Financial Products",
         "lessons": [
           "Trade Lifecycle (Order to Settlement)",
-          "Equities & Fixed Income Products",
           "Derivatives & FX Products",
           "Confirmations & Reconciliation",
-          "Corporate Actions & Position Keeping",
-          "Regulatory Reporting Fundamentals"
+          "Regulatory Reporting Fundamentals",
+          "Pricing Fundamentals"
         ]
       },
       {
@@ -446,7 +443,7 @@ const content = {
     "glanceItems": [
       {
         "label": "Language",
-        "value": "English + Hindi"
+        "value": "English"
       },
       {
         "label": "Tooling",
@@ -454,11 +451,11 @@ const content = {
       },
       {
         "label": "Time Requirement",
-        "value": "6-8 hrs/week"
+        "value": "2 hours each on a Saturday, Sunday over a weekend"
       },
       {
         "label": "Commitment",
-        "value": "8 Weeks"
+        "value": "1 Weekend"
       },
       {
         "label": "Live Sessions",
@@ -472,7 +469,7 @@ const content = {
   },
   "legal": {
     "lastUpdated": "Last updated: April 2026",
-    "contactEmail": "associations@bacourses.com",
+    "contactEmail": "ops2batransition@gmail.com",
     "terms": {
       "title": "Terms & Conditions",
       "sections": [
@@ -506,7 +503,7 @@ const content = {
         },
         {
           "heading": "8. Contact Us",
-          "body": "If you have any questions about these Terms, please contact us at associations@bacourses.com."
+          "body": "If you have any questions about these Terms, please contact us at ops2batransition@gmail.com"
         }
       ]
     },
@@ -543,36 +540,7 @@ const content = {
         },
         {
           "heading": "8. Contact Us",
-          "body": "If you have any questions about this Privacy Policy, please contact us at associations@bacourses.com."
-        }
-      ]
-    },
-    "refund": {
-      "title": "Refund Policy",
-      "sections": [
-        {
-          "heading": "1. Refund Eligibility",
-          "body": "We offer a full refund within 7 days of purchase for any course on the BA Courses platform. To be eligible for a refund, you must submit your request within the 7-day window from the date of purchase. Refund requests made after this period will not be entertained."
-        },
-        {
-          "heading": "2. How to Request a Refund",
-          "body": "To request a refund, please email us at associations@bacourses.com with your order details, including the course name, purchase date, and the email address associated with your account. Our team will review your request and respond within 2-3 business days."
-        },
-        {
-          "heading": "3. Refund Processing",
-          "body": "Once your refund request is approved, the refund will be processed to your original payment method within 5-7 business days. Depending on your bank or payment provider, it may take additional time for the refund to appear in your account. We will notify you via email once the refund has been initiated."
-        },
-        {
-          "heading": "4. Non-Refundable Situations",
-          "body": "Refunds will not be provided in the following cases: if the refund request is made after the 7-day window; if the course has been substantially completed (more than 50% of content accessed); if the account has been flagged for abuse or violation of our terms of service; or if a promotional or discounted course was purchased with a non-refundable coupon code."
-        },
-        {
-          "heading": "5. Course Cancellations",
-          "body": "In the rare event that BA Courses cancels a course, all enrolled students will receive a full refund regardless of the refund window. We will notify you via email if a course is cancelled and process the refund automatically."
-        },
-        {
-          "heading": "6. Contact Us",
-          "body": "If you have any questions about our refund policy, please contact us at associations@bacourses.com or call us at +91 89632-32722."
+          "body": "If you have any questions about this Privacy Policy, please contact us at ops2batransition@gmail.com."
         }
       ]
     },
@@ -601,17 +569,13 @@ const content = {
         },
         {
           "heading": "6. Contact Us",
-          "body": "If you experience any issues accessing your purchased courses, please contact us at associations@bacourses.com or call us at +91 89632-32722."
+          "body": "If you experience any issues accessing your purchased courses, please contact us at ops2batransition@gmail.com or call us at +91 9381379483."
         }
       ]
     }
   },
   "navigation": {
     "publicLinks": [
-      {
-        "href": "/enterprise",
-        "label": "Enterprise"
-      },
       {
         "href": "/contact-us",
         "label": "Contact"
@@ -651,10 +615,6 @@ const content = {
       {
         "href": "/privacy-policy",
         "label": "Privacy & Policy"
-      },
-      {
-        "href": "/refund-policy",
-        "label": "Refund Policy"
       },
       {
         "href": "/shipping-policy",
@@ -824,112 +784,6 @@ const content = {
       "dateColumn": "Date",
       "statusColumn": "Status"
     }
-  },
-  "enterprise": {
-    "hero": {
-      "heading": "Empower your team to develop skills in new age technologies",
-      "benefits": [
-        "Unlimited access to all courses for your team",
-        "Regular workshops and hands-on training sessions",
-        "Personalized learning paths for each team member"
-      ],
-      "cta": "Request a demo"
-    },
-    "trustedPartners": {
-      "heading": "Trusted Partners",
-      "partners": [
-        "JPMorgan",
-        "Internet Computer",
-        "Infosys",
-        "KAI Foundry",
-        "QuadB Tech"
-      ]
-    },
-    "departmentGrid": {
-      "heading": "Find the best online training courses for your team",
-      "departments": [
-        "Learning & Dev",
-        "HR",
-        "Engineering",
-        "IT Ops",
-        "Data Science",
-        "Leaders",
-        "New Age Tech",
-        "AI",
-        "Blockchain"
-      ]
-    },
-    "testimonials": {
-      "heading": "Testimonials",
-      "items": [
-        {
-          "name": "Aarav Patel",
-          "role": "Software Engineer at Infosys",
-          "rating": 5,
-          "review": "The blockchain course was incredibly comprehensive. The hands-on projects helped me transition into a Web3 role within my company. Highly recommended for any developer looking to upskill."
-        },
-        {
-          "name": "Sneha Gupta",
-          "role": "Tech Lead at TCS",
-          "rating": 5,
-          "review": "Our entire team enrolled in the enterprise plan. The quality of instruction and the practical assignments made it easy for our developers to apply the concepts immediately."
-        },
-        {
-          "name": "Rahul Sharma",
-          "role": "CTO at StartupX",
-          "rating": 4,
-          "review": "BA Courses provided exactly what our startup needed. The personalized learning paths allowed each team member to focus on their strengths while building a shared foundation."
-        },
-        {
-          "name": "Priya Nair",
-          "role": "AI Researcher at IIT Delhi",
-          "rating": 5,
-          "review": "The AI/ML modules are well-structured and up to date with the latest developments. The mentors are knowledgeable and genuinely passionate about teaching."
-        },
-        {
-          "name": "Vikram Singh",
-          "role": "Product Manager at Polygon",
-          "rating": 5,
-          "review": "What sets BA Courses apart is the live doubt-solving sessions. Being able to interact with industry experts in real-time accelerated our team's learning significantly."
-        },
-        {
-          "name": "Ananya Reddy",
-          "role": "Junior Developer",
-          "rating": 4,
-          "review": "As a fresher, I found the course content accessible yet challenging. The career guidance component helped me land my first blockchain developer role."
-        }
-      ]
-    },
-    "faq": {
-      "heading": "Frequently Asked Questions",
-      "items": [
-        {
-          "title": "How does the enterprise plan work?",
-          "content": "Our enterprise plan provides your organization with unlimited access to all courses for your team. We offer flexible pricing based on team size, and each member gets a personalized learning dashboard to track their progress."
-        },
-        {
-          "title": "Can we customize the training content for our team?",
-          "content": "Absolutely! We work closely with enterprise clients to tailor course content, create custom modules, and align the training with your organization's technology stack and business goals."
-        },
-        {
-          "title": "What kind of support do enterprise clients receive?",
-          "content": "Enterprise clients receive dedicated account management, priority support, custom reporting and analytics, and direct access to our instructors for team-specific doubt-solving sessions."
-        },
-        {
-          "title": "Is there a minimum team size for the enterprise plan?",
-          "content": "Our enterprise plan is designed for teams of 5 or more. However, we can accommodate smaller teams with custom arrangements. Reach out to us to discuss your specific needs."
-        },
-        {
-          "title": "Do you provide certificates for enterprise training?",
-          "content": "Yes, all team members receive verifiable certificates upon course completion. We can also provide custom-branded certificates for your organization."
-        },
-        {
-          "title": "How do I request a demo?",
-          "content": "You can request a demo by clicking the 'Request a demo' button on this page or by contacting us directly at associations@bacourses.com. Our team will schedule a personalized walkthrough of the platform."
-        }
-      ]
-    },
-    "pageDescription": "Empower your team to develop skills in blockchain, AI, and new age technologies with BA Courses enterprise training."
   },
   "coursePlayer": {
     "signInMessage": "Please sign in to access this course.",
