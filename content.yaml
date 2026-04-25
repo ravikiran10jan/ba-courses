@@ -350,9 +350,9 @@ fallbackCourse:
     - question: "Are the sessions live or recorded?"
       answer: "All sessions are conducted live with recordings made available within 24 hours. You can watch the recordings at your convenience if you miss a live session."
     - question: "What is the refund policy?"
-      answer: "We offer a full refund within 7 days of purchase if you are not satisfied with the programme. No questions asked."
+      answer: "No refund is offered, it is at less than the cost of your one meal!"
     - question: "How long does the programme take to complete?"
-      answer: "The programme runs for 8 weeks with weekend live sessions. You should expect to dedicate 6-8 hours per week including assignments and hands-on practice with the trading system."
+      answer: "The programme runs for 8 weeks with weekend live sessions. You should expect to dedicate 4 hours during a weekend, with 2 hours each on a saturday, sunday including  hands-on practice with the trading system."
   weeks:
     - title: "Pillar A: BA Core Skills"
       lessons:
@@ -365,11 +365,10 @@ fallbackCourse:
     - title: "Pillar B: Trade Lifecycle & Financial Products"
       lessons:
         - "Trade Lifecycle (Order to Settlement)"
-        - "Equities & Fixed Income Products"
         - "Derivatives & FX Products"
         - "Confirmations & Reconciliation"
-        - "Corporate Actions & Position Keeping"
         - "Regulatory Reporting Fundamentals"
+        - "Pricing Fundamentals"
     - title: "Pillar C: AI + Future Skills"
       lessons:
         - "Generative AI Fundamentals"
@@ -379,13 +378,13 @@ fallbackCourse:
         - "Smart Documentation Using AI"
   glanceItems:
     - label: "Language"
-      value: "English + Hindi"
+      value: "English"
     - label: "Tooling"
       value: "Live Trading System, OMS, Position Keeping Tools"
     - label: "Time Requirement"
-      value: "6-8 hrs/week"
+      value: "2 hours each on a Saturday, Sunday over a weekend"
     - label: "Commitment"
-      value: "8 Weeks"
+      value: "1 Weekeend"
     - label: "Live Sessions"
       value: "Weekend Live Sessions"
     - label: "Certificate Type"
@@ -450,7 +449,7 @@ legal:
       - heading: "5. Course Cancellations"
         body: "In the rare event that BA Courses cancels a course, all enrolled students will receive a full refund regardless of the refund window. We will notify you via email if a course is cancelled and process the refund automatically."
       - heading: "6. Contact Us"
-        body: "If you have any questions about our refund policy, please contact us at associations@bacourses.com or call us at +91 89632-32722."
+        body: "If you have any questions about our refund policy, please contact us at ops2batransition@gmail.com or call us at +91 89632-32722."
 
   shipping:
     title: "Shipping & Delivery Policy"
