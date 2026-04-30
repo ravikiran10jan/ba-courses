@@ -5,7 +5,7 @@
 const content = {
   "site": {
     "name": "BA Courses",
-    "tagline": "< CAREER TRANSFORMATION PROGRAMME />",
+    "tagline": "CAREER TRANSFORMATION PROGRAMME",
     "headline": "Your Operations Experience\nIs Your Unfair Advantage.",
     "subheadline": "Bridge the gap from operational execution to strategic Business Analysis in Financial Markets. Hands-on. Domain-deep. AI-augmented.",
     "description": "BA Courses - Transform your operations career into a high-demand Business Analyst role in Financial Markets & Capital Markets. Live training, real trading systems, AI-augmented skills.",
@@ -55,7 +55,7 @@ const content = {
     ]
   },
   "whatYouGet": {
-    "tagline": "< HERE'S WHAT YOU GET! />",
+    "tagline": "HERE'S WHAT YOU GET!",
     "priceLabel": "The Complete Diversification Package For Just",
     "newsletterPlaceholder": "Enter your email",
     "newsletterButton": "Submit",
@@ -70,7 +70,7 @@ const content = {
     ]
   },
   "hero": {
-    "tagline": "< CAREER TRANSFORMATION PROGRAMME />",
+    "tagline": "CAREER TRANSFORMATION PROGRAMME",
     "headlineTop": "Your Operations Experience",
     "headlineAccent": "Is Your Unfair Advantage.",
     "subheadline": "Bridge the gap from operational execution to strategic Business Analysis in Financial Markets. Hands-on. Domain-deep. AI-augmented.",
@@ -81,7 +81,7 @@ const content = {
     "ctaDashboard": "My Dashboard"
   },
   "marketDemand": {
-    "tagline": "< LIVE MARKET DEMAND - RIGHT NOW />",
+    "tagline": "LIVE MARKET DEMAND - RIGHT NOW",
     "bigNumber": "13,000+",
     "bigLabel": "Business Analyst Positions Open Today",
     "points": [
@@ -100,7 +100,7 @@ const content = {
     ]
   },
   "courseGrid": {
-    "heading": "2025 COHORT - LIMITED SEATS",
+    "heading": "2026 COHORT - LIMITED SEATS",
     "subheading": "Live Training Programme with Real Trading System Access"
   },
   "featuredCourse": {
@@ -109,7 +109,7 @@ const content = {
     "slug": "ops-to-business-analyst",
     "category": "Financial Markets",
     "enrolledCount": 50,
-    "duration": "2025 Cohort"
+    "duration": "2026 Cohort"
   },
   "curriculum": {
     "tagline": "Curriculum Breakdown",
@@ -364,10 +364,10 @@ const content = {
     "slug": "ops-to-business-analyst",
     "description": "Transform your operations career into a high-demand BA role in Capital Markets.",
     "category": "Financial Markets",
-    "language": "English + Hindi",
+    "language": "English",
     "tooling": "Live Trading System, OMS, Position Keeping Tools",
-    "timeRequirement": "6-8 hrs/week",
-    "duration": "8 Weeks",
+    "timeRequirement": "2 hours each on a Saturday, Sunday over a weekend",
+    "duration": "1 Weekend",
     "liveSessions": "Weekend Live Sessions",
     "certificate": "Career Transformation Certificate",
     "enrolledCount": 50,
@@ -666,7 +666,7 @@ const content = {
     ]
   },
   "authForms": {
-    "tagline": "< HOME FOR LEARNING />",
+    "tagline": "HOME FOR LEARNING",
     "showPassword": "Show password",
     "hidePassword": "Hide password",
     "login": {
@@ -718,7 +718,7 @@ const content = {
     "cta": "Back to Home"
   },
   "dashboard": {
-    "tagline": "< HOME FOR LEARNING />",
+    "tagline": "HOME FOR LEARNING",
     "heading": "Dashboard",
     "enrolledTab": "Enrolled",
     "completedTab": "Completed",

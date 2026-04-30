@@ -6,7 +6,7 @@
 # ------ Global / Brand ------
 site:
   name: "BA Courses"
-  tagline: "< CAREER TRANSFORMATION PROGRAMME />"
+  tagline: "CAREER TRANSFORMATION PROGRAMME"
   headline: "Your Operations Experience\nIs Your Unfair Advantage."
   subheadline: "Bridge the gap from operational execution to strategic Business Analysis in Financial Markets. Hands-on. Domain-deep. AI-augmented."
   description: "BA Courses - Transform your operations career into a high-demand Business Analyst role in Financial Markets & Capital Markets. Live training, real trading systems, AI-augmented skills."
@@ -45,7 +45,7 @@ stats:
 
 # ------ What You Get section ------
 whatYouGet:
-  tagline: "< HERE'S WHAT YOU GET! />"
+  tagline: "HERE'S WHAT YOU GET!"
   priceLabel: "The Complete Diversification Package For Just"
   newsletterPlaceholder: "Enter your email"
   newsletterButton: "Submit"
@@ -60,7 +60,7 @@ whatYouGet:
 
 # ------ Hero section ------
 hero:
-  tagline: "< CAREER TRANSFORMATION PROGRAMME />"
+  tagline: "CAREER TRANSFORMATION PROGRAMME"
   headlineTop: "Your Operations Experience"
   headlineAccent: "Is Your Unfair Advantage."
   subheadline: "Bridge the gap from operational execution to strategic Business Analysis in Financial Markets. Hands-on. Domain-deep. AI-augmented."
@@ -72,7 +72,7 @@ hero:
 
 # ------ Market Demand section ------
 marketDemand:
-  tagline: "< LIVE MARKET DEMAND - RIGHT NOW />"
+  tagline: "LIVE MARKET DEMAND - RIGHT NOW"
   bigNumber: "13,000+"
   bigLabel: "Business Analyst Positions Open Today"
   points:
@@ -85,7 +85,7 @@ marketDemand:
 
 # ------ Course Grid section ------
 courseGrid:
-  heading: "2025 COHORT - LIMITED SEATS"
+  heading: "2026 COHORT - LIMITED SEATS"
   subheading: "Live Training Programme with Real Trading System Access"
 
 # ------ Featured course fallback (shown when DB is empty) ------
@@ -95,7 +95,7 @@ featuredCourse:
   slug: "ops-to-business-analyst"
   category: "Financial Markets"
   enrolledCount: 50
-  duration: "2025 Cohort"
+  duration: "2026 Cohort"
 
 # ------ Curriculum Preview section ------
 curriculum:
@@ -323,10 +323,10 @@ fallbackCourse:
   slug: "ops-to-business-analyst"
   description: "Transform your operations career into a high-demand BA role in Capital Markets."
   category: "Financial Markets"
-  language: "English + Hindi"
+  language: "English"
   tooling: "Live Trading System, OMS, Position Keeping Tools"
-  timeRequirement: "6-8 hrs/week"
-  duration: "8 Weeks"
+  timeRequirement: "2 hours each on a Saturday, Sunday over a weekend"
+  duration: "1 Weekend"
   liveSessions: "Weekend Live Sessions"
   certificate: "Career Transformation Certificate"
   enrolledCount: 50
@@ -502,7 +502,7 @@ navigation:
 
 # ------ Auth forms (login / signup / forgot password) ------
 authForms:
-  tagline: "< HOME FOR LEARNING />"
+  tagline: "HOME FOR LEARNING"
   showPassword: "Show password"
   hidePassword: "Hide password"
   login:
@@ -552,7 +552,7 @@ notFound:
 
 # ------ Dashboard page ------
 dashboard:
-  tagline: "< HOME FOR LEARNING />"
+  tagline: "HOME FOR LEARNING"
   heading: "Dashboard"
   enrolledTab: "Enrolled"
   completedTab: "Completed"
