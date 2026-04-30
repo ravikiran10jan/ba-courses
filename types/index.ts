@@ -13,7 +13,6 @@ export { type Payment, type PaymentStatus } from "./payment";
 export { type Achievement, type AchievementType } from "./achievement";
 export { type Referral, type ReferralSummary, type ReferralStatus } from "./referral";
 export {
-  type EnterpriseDemo,
   type ContactMessage,
   type NewsletterSubscription,
   type Coupon,

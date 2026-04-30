@@ -401,10 +401,6 @@ const content = {
       {
         "question": "What is your refund policy?",
         "answer": "No refund is offered, it is at less than the cost of your one meal!"
-      },
-      {
-        "question": "What is your refund policy?",
-        "answer": "No refund is offered..."
       }
     ],
     "weeks": [
@@ -541,6 +537,31 @@ const content = {
         {
           "heading": "8. Contact Us",
           "body": "If you have any questions about this Privacy Policy, please contact us at ops2batransition@gmail.com."
+        }
+      ]
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "sections": [
+        {
+          "heading": "1. No Refund Policy",
+          "body": "BA Courses does not offer refunds on any course purchases. The course is priced affordably — less than the cost of a single meal — to ensure accessibility for all aspiring Business Analysts. By completing your purchase, you acknowledge and agree to this no-refund policy."
+        },
+        {
+          "heading": "2. Course Access",
+          "body": "Upon successful payment, you will receive immediate and full access to all course materials, live sessions, and resources included in the programme. This access remains available for the duration of the course."
+        },
+        {
+          "heading": "3. Cancellations by BA Courses",
+          "body": "In the rare event that BA Courses cancels a course or programme, all enrolled students will receive a full refund. We will notify you via email and process the refund automatically within 7-10 business days."
+        },
+        {
+          "heading": "4. Technical Issues",
+          "body": "If you experience technical issues that prevent you from accessing the course content, please contact our support team immediately. We will work to resolve the issue as quickly as possible to ensure you receive the full learning experience."
+        },
+        {
+          "heading": "5. Contact Us",
+          "body": "If you have any questions about our refund policy, please contact us at ops2batransition@gmail.com or call us at +91 9381379483."
         }
       ]
     },

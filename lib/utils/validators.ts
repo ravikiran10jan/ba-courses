@@ -52,15 +52,6 @@ export const lessonSchema = z.object({
   isPreview: z.boolean(),
 });
 
-export const enterpriseDemoSchema = z.object({
-  companyName: z.string().min(2, "Company name is required"),
-  contactName: z.string().min(2, "Contact name is required"),
-  email: z.string().email("Invalid email address"),
-  phone: z.string(),
-  teamSize: z.string(),
-  message: z.string(),
-});
-
 export type LoginFormData = z.infer<typeof loginSchema>;
 export type SignupFormData = z.infer<typeof signupSchema>;
 export type ProfileFormData = z.infer<typeof profileSchema>;
@@ -68,4 +59,3 @@ export type ContactFormData = z.infer<typeof contactSchema>;
 export type NewsletterFormData = z.infer<typeof newsletterSchema>;
 export type CourseFormData = z.infer<typeof courseSchema>;
 export type LessonFormData = z.infer<typeof lessonSchema>;
-export type EnterpriseDemoFormData = z.infer<typeof enterpriseDemoSchema>;

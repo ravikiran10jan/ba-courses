@@ -1,14 +1,3 @@
-export interface EnterpriseDemo {
-  id: string;
-  companyName: string;
-  contactName: string;
-  email: string;
-  phone: string;
-  teamSize: string;
-  message: string;
-  createdAt: Date;
-}
-
 export interface ContactMessage {
   id: string;
   name: string;

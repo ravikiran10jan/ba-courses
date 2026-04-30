@@ -422,29 +422,6 @@ export function getAdmin() {
   };
 }
 
-export interface EnterpriseTestimonial {
-  name: string;
-  role: string;
-  rating: number;
-  review: string;
-}
-
-export interface EnterpriseFaqItem {
-  title: string;
-  content: string;
-}
-
-export function getEnterprise() {
-  return content.enterprise as unknown as {
-    hero: { heading: string; benefits: string[]; cta: string };
-    trustedPartners: { heading: string; partners: string[] };
-    departmentGrid: { heading: string; departments: string[] };
-    testimonials: { heading: string; items: EnterpriseTestimonial[] };
-    faq: { heading: string; items: EnterpriseFaqItem[] };
-    pageDescription: string;
-  };
-}
-
 export function getCoursePlayer() {
   return content.coursePlayer as unknown as {
     signInMessage: string;
