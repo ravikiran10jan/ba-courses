@@ -16,8 +16,9 @@ const content = {
       "email": "ops2batransition@gmail.com",
       "discord": "https://discord.gg/eswQurMGFE",
       "twitter": "https://twitter.com/BACourses",
-      "linkedin": "https://linkedin.com/company/bacourses",
+      "linkedin": "https://www.linkedin.com/in/ravikiranreddyg",
       "youtube": "https://youtube.com/@bacourses",
+      "instagram": "https://instagram.com/bacourses",
       "whatsapp": "https://wa.me/919381379483"
     }
   },
@@ -221,15 +222,16 @@ const content = {
   "trainer": {
     "sectionHeading": "YOUR TRAINER",
     "sectionSubheading": "Taught by someone who has lived it for over two decades",
-    "name": "Your Trainer",
-    "title": "Senior Business Analyst - Financial Markets Specialist",
+    "name": "Ravikiran Reddy",
+    "title": "Director - Business Analysis",
     "bio": "20+ years BA experience across global investment banks & tier-1 financial institutions. Expert in Trade Lifecycle, Financial Products & Capital Markets BA delivery.",
     "badges": [
       "20+ Years BA Exp.",
       "Capital Markets",
       "Financial Markets"
     ],
-    "linkedinLabel": "LinkedIn"
+    "linkedinLabel": "Connect on LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/in/ravikiranreddyg"
   },
   "stillHaveQuestions": {
     "heading": "STILL HAVE QUESTION...",
@@ -377,8 +379,8 @@ const content = {
       "Access to exclusive BA job referral network"
     ],
     "instructor": {
-      "name": "Your Trainer",
-      "title": "Senior Business Analyst - Financial Markets Specialist",
+      "name": "Ravikiran Reddy",
+      "title": "Director - Business Analysis",
       "bio": "Senior Business Analyst with 20+ years of experience across global investment banks and tier-1 financial institutions. Expert in Trade Lifecycle, Financial Products & Capital Markets BA delivery. Has trained professionals who are now working as BAs at top investment banks worldwide."
     },
     "faqs": [

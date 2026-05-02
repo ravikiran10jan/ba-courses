@@ -22,6 +22,7 @@ export interface SiteContent {
     twitter: string;
     linkedin: string;
     youtube: string;
+    instagram: string;
     whatsapp: string;
   };
 }
@@ -176,6 +177,7 @@ export function getTrainer() {
     bio: string;
     badges: string[];
     linkedinLabel: string;
+    linkedinUrl: string;
   };
 }
 

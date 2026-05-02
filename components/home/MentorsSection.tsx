@@ -54,7 +54,7 @@ export default function MentorsSection() {
             </div>
 
             <a
-              href="https://linkedin.com/"
+              href={trainer.linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 mt-4 text-sm text-accent hover:text-accent-hover transition-colors"

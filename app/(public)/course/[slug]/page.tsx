@@ -48,7 +48,7 @@ const fallbackCourse: Course = {
       name: fc.instructor.name,
       title: fc.instructor.title,
       imageUrl: "",
-      linkedinUrl: "https://linkedin.com/",
+      linkedinUrl: "https://www.linkedin.com/in/ravikiranreddyg",
       bio: fc.instructor.bio,
     },
   ],
