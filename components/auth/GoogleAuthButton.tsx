@@ -11,29 +11,45 @@ const af = getAuthForms();
 export default function GoogleAuthButton() {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleGoogleSignIn = async () => {
     setLoading(true);
+    setError(null);
     try {
       await signInWithGoogle();
       router.push("/dashboard");
-    } catch (error) {
-      console.error("Google sign-in error:", error);
+    } catch (err: unknown) {
+      console.error("Google sign-in error:", err);
+      const code = (err as { code?: string })?.code;
+      if (code === "auth/popup-closed-by-user") {
+        setError("Sign-in cancelled. Please try again.");
+      } else if (code === "auth/popup-blocked") {
+        setError("Pop-up blocked by browser. Please allow pop-ups and try again.");
+      } else if (code === "auth/unauthorized-domain") {
+        setError("This domain is not authorized for Google sign-in. Please contact support.");
+      } else {
+        setError("Google sign-in failed. Please try again or use email sign-in.");
+      }
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <Button
-      type="button"
-      variant="secondary"
-      size="lg"
-      loading={loading}
-      onClick={handleGoogleSignIn}
-      className="w-full rounded-lg gap-3"
-    >
-      {!loading && (
+    <>
+      {error && (
+        <p className="text-red-500 text-sm text-center mb-2">{error}</p>
+      )}
+      <Button
+        type="button"
+        variant="secondary"
+        size="lg"
+        loading={loading}
+        onClick={handleGoogleSignIn}
+        className="w-full rounded-lg gap-3"
+      >
+        {!loading && (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
           <path
             d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
@@ -55,5 +71,6 @@ export default function GoogleAuthButton() {
       )}
       {af.google.button}
     </Button>
+    </>
   );
 }
