@@ -1,14 +1,10 @@
-"use client";
-
-import { useState } from "react";
-import { useAuth } from "@/hooks/useAuth";
-import { useRouter } from "next/navigation";
 import Button from "@/components/ui/Button";
-import PaymentModal from "@/components/course-detail/PaymentModal";
 import { formatCurrency } from "@/lib/utils/format";
 import { getCourseDetail } from "@/lib/content";
 
 const cd = getCourseDetail();
+
+const WHATSAPP_NUMBER = "919381379483";
 
 interface EnrollSectionProps {
   courseId: string;
@@ -18,58 +14,14 @@ interface EnrollSectionProps {
 }
 
 export default function EnrollSection({
-  courseId,
   courseTitle,
   price,
   originalPrice,
 }: EnrollSectionProps) {
-  const { user, loading } = useAuth();
-  const router = useRouter();
-  const [showModal, setShowModal] = useState(false);
-  const [processing, setProcessing] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  async function handleConfirm(finalAmount: number, couponCode?: string) {
-    if (!user) {
-      router.push("/login?redirect=" + encodeURIComponent(window.location.pathname));
-      return;
-    }
-
-    setProcessing(true);
-    setError(null);
-
-    try {
-      const res = await fetch("/api/payments/create", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ courseId, couponCode }),
-      });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        setError(data.error || cd.enrollCreateError);
-        setProcessing(false);
-        return;
-      }
-
-      // Redirect to Instamojo payment page
-      if (data.paymentUrl) {
-        window.location.href = data.paymentUrl;
-      }
-    } catch {
-      setError(cd.enrollGenericError);
-      setProcessing(false);
-    }
-  }
-
-  function handleEnrollClick() {
-    if (!user && !loading) {
-      router.push("/login?redirect=" + encodeURIComponent(window.location.pathname));
-      return;
-    }
-    setShowModal(true);
-  }
+  const message = encodeURIComponent(
+    `Hi, I'm interested in enrolling for "${courseTitle}". Please share the details.`
+  );
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
 
   return (
     <section id="enroll" className="py-16 sm:py-20 bg-card">
@@ -82,38 +34,22 @@ export default function EnrollSection({
         </p>
 
         <div className="flex flex-col items-center gap-4">
-          <Button
-            variant="cta"
-            size="lg"
-            onClick={handleEnrollClick}
-            loading={processing}
-            className="max-w-md"
-          >
-            {cd.enrollCta}{" "}
-            {originalPrice > price && (
-              <span className="line-through opacity-60 mx-1">
-                {formatCurrency(originalPrice)}
-              </span>
-            )}
-            {formatCurrency(price)}
-          </Button>
-
-          {error && (
-            <p className="text-red-500 text-sm">{error}</p>
-          )}
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="cta"
+              size="lg"
+              className="max-w-md"
+            >
+              {cd.enrollCta}{" "}
+              {originalPrice > price && (
+                <span className="line-through opacity-60 mx-1">
+                  {formatCurrency(originalPrice)}
+                </span>
+              )}
+              {formatCurrency(price)}
+            </Button>
+          </a>
         </div>
-
-        <PaymentModal
-          isOpen={showModal}
-          onClose={() => setShowModal(false)}
-          course={{
-            id: courseId,
-            title: courseTitle,
-            price,
-            originalPrice,
-          }}
-          onConfirm={handleConfirm}
-        />
       </div>
     </section>
   );

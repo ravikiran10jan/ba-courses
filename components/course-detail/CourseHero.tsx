@@ -1,10 +1,11 @@
-import Link from "next/link";
 import { formatCurrency } from "@/lib/utils/format";
 import { getCourseDetail } from "@/lib/content";
 import CountdownTimer from "@/components/ui/CountdownTimer";
 import Button from "@/components/ui/Button";
 
 const cd = getCourseDetail();
+
+const WHATSAPP_NUMBER = "919381379483";
 
 interface CourseHeroProps {
   title: string;
@@ -21,8 +22,12 @@ export default function CourseHero({
   price,
   originalPrice,
   couponCode,
-  slug,
 }: CourseHeroProps) {
+  const message = encodeURIComponent(
+    `Hi, I'm interested in enrolling for "${title}". Please share the details.`
+  );
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+
   return (
     <section className="py-16 sm:py-20 bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
@@ -35,7 +40,7 @@ export default function CourseHero({
         </p>
 
         <div className="mt-8">
-          <Link href={`/course/${slug}#enroll`}>
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
             <Button variant="cta" size="lg" className="max-w-md mx-auto">
               {cd.heroEnrollLabel}{" "}
               <span className="line-through opacity-60 mx-1">
@@ -43,7 +48,7 @@ export default function CourseHero({
               </span>{" "}
               {formatCurrency(price)}
             </Button>
-          </Link>
+          </a>
         </div>
 
         {couponCode && (
